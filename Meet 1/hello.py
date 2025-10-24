@@ -1,0 +1,1 @@
+print("Salam kenal Siswa Siswi SMAN 1 Bone")
