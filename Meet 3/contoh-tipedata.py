@@ -5,6 +5,8 @@ lulus = True # bollean
 nilai = [80, 85, 90]  # list
 data = {"nama": nama, "umur": umur, "tinggi": tinggi}
 
+print(type(data))
+
 
 print("Nama:", nama)
 print("Umur:", umur, "tahun")

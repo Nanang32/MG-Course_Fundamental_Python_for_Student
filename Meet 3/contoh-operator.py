@@ -2,7 +2,9 @@
 a = 10
 b = 3
 
-# Operator aritmatika
+
+
+# # Operator aritmatika
 print("Penjumlahan:", a + b)
 print("Pembagian bulat:", a // b)
 print("Pangkat:", a ** b)
@@ -14,5 +16,5 @@ print("Apakah a lebih besar dari b?", a > b)
 print("Kondisi logika:", (a > 5) and (b < 5))
 
 # Operator penugasan
-a += 2
+b += 2
 print("Nilai baru a setelah a += 2:", a)
