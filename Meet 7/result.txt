@@ -1,0 +1,6 @@
+| Struktur Data  | Simbol         | Bisa Diubah | Contoh               | Keterangan             |
+| -------------- | -------------- | ----------- | -------------------- | ---------------------- |
+| **List**       | `[]`           | ✅           | `["apel", "pisang"]` | Urutan dan bisa diubah |
+| **Tuple**      | `()`           | ❌           | `("a", "b")`         | Tidak bisa diubah      |
+| **Set**        | `{}`           | ✅           | `{1, 2, 3}`          | Unik, tanpa urutan     |
+| **Dictionary** | `{key: value}` | ✅           | `{"nama": "Ali"}`    | Data berpasangan       |
