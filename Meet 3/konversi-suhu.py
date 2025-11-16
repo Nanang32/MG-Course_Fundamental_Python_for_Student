@@ -17,6 +17,9 @@ print("Fahrenheit  :", fahrenheit, "°F")
 print("Kelvin      :", kelvin, "K")
 
 
+2 == 3 bolle
+2=! 3 true
+a === b bolean
 
 """
 Deskripsi
