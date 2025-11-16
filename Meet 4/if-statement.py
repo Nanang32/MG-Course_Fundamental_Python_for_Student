@@ -1,16 +1,16 @@
 # sesi 1
-condition = True
+# condition = True
 # sesi 2
 # name = "Roger"
-
+nilai = 10
 # sesi 1
-if condition == True:
+if nilai > 75:
     # do something
     print("Kondisi")
-    print("benar")
+    print("lulus")
 else:
     print("Kondisi")
-    print("Salah")
+    print("tidak lulus")
 
 # Sesi 2
 # if condition == True:
