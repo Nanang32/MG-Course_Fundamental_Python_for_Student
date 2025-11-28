@@ -1,0 +1,3 @@
+DD 1234 EE
+DT 1992 DE
+exit
