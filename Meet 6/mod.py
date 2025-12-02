@@ -5,4 +5,4 @@ def habis_sisa(num1,num2):
     print(num1 % num2)
 
 # Panggil fungsi
-habis_sisa(8,2)
+habis_sisa(19,2)

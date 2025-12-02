@@ -5,7 +5,7 @@ siswa = {
 }
 
 print(siswa["nama"])         # Akses berdasarkan key
-siswa["nilai"] = 95          # Ubah nilai
+siswa["nilai"] = 50          # Ubah nilai
 print(siswa)
 
 
