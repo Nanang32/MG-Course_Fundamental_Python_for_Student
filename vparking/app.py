@@ -42,8 +42,11 @@ class ParkingApp:
 
         btn_frame = tk.Frame(input_frame)
         btn_frame.pack(pady=10)
+        # pengagnti tombol parkir masuk kursor bawah
         master.bind('<Down>', lambda event: self.park_in())
+        # pengagnti tombol parkir keluar kursor atas
         master.bind('<Up>', lambda event: self.park_out())
+
         tk.Button(btn_frame, text="Parkir Masuk", width=12, bg="#4CAF50", fg="black",
                   command=self.park_in).pack(side='left', padx=5)
         tk.Button(btn_frame, text="Parkir Keluar", width=12, bg="#F44336", fg="black",
