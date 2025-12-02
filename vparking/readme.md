@@ -13,7 +13,6 @@ project-parkir/
 ├── file6_utils.py
 └── file7_config.py
 
-
 📑 Penjelasan Setiap File
 1️⃣ file1_input_output.py — Input File & Output Data
 Berisi fungsi-fungsi dasar untuk:
@@ -21,7 +20,6 @@ Membaca data dari file data_parkir.txt
 Menulis data baru ke file
 Mengecek apakah file ada, membuat jika belum ada
 File ini menjadi fondasi pengelolaan data non-GUI.
-
 
 2️⃣ file2_gui.py — Membuat Antarmuka GUI (Tkinter)
 Membangun elemen GUI dasar:
@@ -71,40 +69,34 @@ Keybinding khusus
 Supaya konfigurasi mudah diubah tanpa mengedit file lain.
 
 ▶️ Cara Menjalankan Aplikasi
+
 1. Pastikan Python Terinstal
-Minimal Python 3.8+
-Cek dengan:
-python --version
+   Minimal Python 3.8+
+   Cek dengan:
+   python --version
 2. Tidak perlu instal library tambahan
-Tkinter sudah bawaan Python.
+   Tkinter sudah bawaan Python.
 3. Jalankan aplikasi
-Masuk ke folder project:
-cd project-parkir
-Lalu jalankan:
-python main.py
-🧭 Alur Penggunaan Program
-📌 1. Input Plat
-Ketik plat kendaraan → otomatis uppercase
-📌 2. Parkir Masuk
-Tekan tombol Parkir Masuk
-atau
-Tekan tombol ENTER (↵)
-Data akan disimpan ke file.
-📌 3. Parkir Keluar
-Tekan tombol Parkir Keluar
-atau
-Tekan tombol “\” (backslash)
-Data akan dicatat ke file.
-📄 File Penyimpanan Data
-Aplikasi membuat file:
-data_parkir.txt
-Format data:
-[2025-12-02 10:24] MASUK : B 1234 ABC
-[2025-12-02 11:10] KELUAR: B 1234 ABC
-🛠️ Pengembangan Selanjutnya
-Aplikasi masih sangat mudah dikembangkan, misalnya:
-Export ke Excel
-Tambah tarif parkir
-Koneksi database SQLite
-Sistem login petugas
-Menambah fitur laporan harian
+   Masuk ke folder project:
+   cd project-parkir
+   Lalu jalankan:
+   python main.py
+   🧭 Alur Penggunaan Program
+   📌 1. Input Plat
+   Ketik plat kendaraan → otomatis uppercase
+   📌 2. Parkir Masuk
+   Tekan tombol Parkir Masuk
+   atau
+   Tekan tombol ENTER (↵)
+   Data akan disimpan ke file.
+   📌 3. Parkir Keluar
+   Tekan tombol Parkir Keluar
+   atau
+   Tekan tombol “\” (backslash)
+   Data akan dicatat ke file.
+   📄 File Penyimpanan Data
+   Aplikasi membuat file:
+   data_parkir.txt
+   Format data:
+   [2025-12-02 10:24] MASUK : B 1234 ABC
+   [2025-12-02 11:10] KELUAR: B 1234 ABC
