@@ -1,0 +1,7 @@
+- FILE 1 — main.py Entry point aplikasi
+- FILE 2 — constants.py Konstanta utama aplikasi hitung retribusi
+- FILE 3 — data_manager.py Input File & Output Data (JSON)
+- FILE 4 — fee_calculation.py Perhitungan tarif parkir
+- FILE 5 — gui_base.py Bagian pembuatan elemen GUI dasar
+- FILE 6 — parking_logic.py Logika inti aplikasi parkir
+- FILE 7 — app.py Integrasi GUI + Logika + Data
